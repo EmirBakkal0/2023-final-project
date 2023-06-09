@@ -8,6 +8,7 @@ public class TestInventory {
         car.setAirBag(true); //3000
         inventory.add(car);
 
+
         car = new Sivic(); //50000
         car.setAbs(true); //5000
         car.setSunRoof(true); //2000

@@ -6,7 +6,7 @@ public class Scooter extends Motorbike {
     }
 
     public int calcTotalCost(){
-        int totalCost=baseCost;
+        int totalCost=baseCost; /// calculates the total cost of a vehicle according to its base price and options
 
         if(optionals.get("ABS")){
             totalCost+=absCost;

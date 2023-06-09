@@ -1,9 +1,8 @@
 public abstract class Motorbike extends Vehicle{
-    final int seatHeatingCost=2000;
-
+    final int seatHeatingCost=2000;// setting the prices of options
 
     public Motorbike(){
-        optionals.put("ABS",false);
+        optionals.put("ABS",false); // setting all options as false first
         optionals.put("Seat Heating",false);
 
     }
